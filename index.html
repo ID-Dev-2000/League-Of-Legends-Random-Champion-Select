@@ -14,19 +14,22 @@
     <a href="https://github.com/ID-Dev-2000/League-Of-Legends-Random-Champion-Select" style="color: white;"><-</a></div>
 
     <main>
-        <h1 style="margin-bottom: 0px;">Random Champion Selector</h1>
-        <hr style="width: 200px;">
-        <label for="selectRoleID">Select a role:</label>
-        <select id="selectRoleID" style="margin-top: 5px;">
-            <option value="topLane">Top Lane</option>
-            <option value="jungle">Jungle</option>
-            <option value="midLane">Mid Lane</option>
-            <option value="adc">ADC</option>
-            <option value="support">Support</option>
-        </select>
-        <button id="generateButton" style="margin-top: 10px;">Pick Champ</button>
-        <h3>Your champion is: <span id="generatedChampion">N/A</span></h3>
-        <h1 style="margin: 0px;"><a id="wikiLink" target="_blank" href="https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki">View League Wiki</a></h1>
+        <div class="contentParent">
+            <h1 style="margin-bottom: 0px;">Random Champion Selector</h1>
+            <hr style="width: 200px;">
+            <label for="selectRoleID">Select a role:</label>
+            <select id="selectRoleID" style="margin-top: 5px;">
+                <option value="topLane">Top Lane</option>
+                <option value="jungle">Jungle</option>
+                <option value="midLane">Mid Lane</option>
+                <option value="adc">ADC</option>
+                <option value="support">Support</option>
+            </select>
+            <button id="generateButton" style="margin-top: 10px;">Pick Champ</button>
+            <h3>Your champion is: <span id="generatedChampion">N/A</span></h3>
+            <h3>Rolls: <span id="rollCount">0</span></h2>
+            <h1 style="margin: 0px;"><a id="wikiLink" target="_blank" href="https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki">View League Wiki</a></h1>
+        </div>
     </main>
     <script src="championData.js"></script>
     <script src="script.js"></script>

@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    background-color: whitesmoke;
+}
+
 main {
+    font-family: 'Source Code Pro', monospace;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,4 +14,41 @@ main {
 
 h1 {
     text-align: center;
+}
+
+h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #256579;
+    font-family: 'Source Code Pro', monospace;
+    color: gold;
+    border: 2px solid #2c2f3e;
+    box-shadow: 0 3px grey;
+}
+
+button:active {
+    transform: translate(0px, 2px);
+    box-shadow: 0 1px grey;
+}
+
+select {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.contentParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 30px;
+    background-color: #a1b0d8;
+    border: 3px solid black;
+    margin-top: 20px;
+    border-radius: 15px;
 }
