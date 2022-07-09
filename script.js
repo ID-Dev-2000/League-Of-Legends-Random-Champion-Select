@@ -8,6 +8,9 @@ let rollCountVariable = 0
 generateButton.addEventListener('click', function() {
     rollCountVariable++
     rollCount.innerHTML = rollCountVariable
+    if (rollCountVariable > 1) {
+        rollCount.innerHTML += ' 🤨'
+    }
     let roleSelection = roleSelect.value
     let randomValueFromArrayLength = Math.floor(Math.random() * roles[roleSelection].length)
     let championValue = roles[roleSelection][randomValueFromArrayLength]
