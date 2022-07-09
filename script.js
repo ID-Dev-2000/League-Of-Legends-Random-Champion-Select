@@ -22,4 +22,5 @@ generateButton.addEventListener('click', function() {
 roleSelect.addEventListener('change', function() {
     rollCountVariable = 0
     rollCount.innerHTML = rollCountVariable
+    generatedChampion.innerHTML = 'N/A'
 })
