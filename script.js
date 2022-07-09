@@ -23,4 +23,6 @@ roleSelect.addEventListener('change', function() {
     rollCountVariable = 0
     rollCount.innerHTML = rollCountVariable
     generatedChampion.innerHTML = 'N/A'
+    wikiLink.href = 'https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki'
+    wikiLink.innerHTML = 'View League Wiki'
 })
